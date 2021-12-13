@@ -67,7 +67,7 @@ void setup(){
   
   servo1.attach(SERVOPINLIFT);  //  lifting servo
   servo2.attach(SERVOPINLEFT);  //  left servo
-  servo3.attach(SERVOPINRIGHT);  //  right servo
+  servo3.attach(SERVOPINRIGHT); //  right servo
   delay(1000);
 
   
