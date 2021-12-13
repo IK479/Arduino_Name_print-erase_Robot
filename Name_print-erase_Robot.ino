@@ -63,8 +63,8 @@ volatile double lastY = 47.5;
 
 int last_min = 0;
 
-void setup() 
-{ 
+void setup(){ 
+  
   servo1.attach(SERVOPINLIFT);  //  lifting servo
   servo2.attach(SERVOPINLEFT);  //  left servo
   servo3.attach(SERVOPINRIGHT);  //  right servo
