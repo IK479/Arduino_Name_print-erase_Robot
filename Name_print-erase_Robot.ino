@@ -385,8 +385,8 @@ double return_angle(double a, double b, double c) {
   return acos((a * a + c * c - b * b) / (2 * a * c));
 }
 
-void set_XY(double Tx, double Ty) 
-{
+void set_XY(double Tx, double Ty) {
+  
   delay(1);
   double dx, dy, c, a1, a2, Hx, Hy;
 
