@@ -1,8 +1,8 @@
 #include <Time.h> 
 #include <Servo.h>
 
-//#define CALIBRATION      // enable calibration mode
-//#define REALTIMECLOCK    // enable real time clock
+//#define CALIBRATION    // enable calibration mode
+//#define REALTIMECLOCK  // enable real time clock
 
 #define WISHY 3 // Offset of the Y coordinats of the plate-wisher
 
@@ -54,9 +54,9 @@
 
 int servoLift = 1500;
 
-Servo servo1;  // 
-Servo servo2;  // 
-Servo servo3;  // 
+Servo servo1;   
+Servo servo2;  
+Servo servo3;  
 
 volatile double lastX = 0;
 volatile double lastY = 47.5;
@@ -77,11 +77,10 @@ void setup()
   
    number(41, 7.5, 12, 1);//|
    number(32, -3.5, 0, 1);//o
-  
-  
+   
    number(46, 3, 0, 1.3);//o
   
-    delay(4000);
+   delay(4000);
   
    number(3, 3, 111, 1); 
 } 
