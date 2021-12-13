@@ -69,7 +69,6 @@ void setup(){
   servo2.attach(SERVOPINLEFT);  //  left servo
   servo3.attach(SERVOPINRIGHT); //  right servo
   delay(1000);
-
   
    number(13, 1, 7, 1.2); // -
    number(27, 8, 1, 0.8); // |
